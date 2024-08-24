@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anya Chernova</title>
+
+    <!--=================== Icon ====================-->
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <!--=================== Google Font ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <div>
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a href="https://www.linkedin.com/in/anya-chernova-b69a97260/" target="_blank" class="social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://github.com/Ascher176" target="_blank" class="social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            achernova@ucsd.edu <button class="copy-button" onclick="copyText()" style="border: transparent; 
+                            background-color: transparent; cursor: pointer;"><i class="ri-file-copy-line"></i></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">Experience</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#project" class="nav_link">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--=================== main ====================-->
+    <main class="main">
+        <!--=================== Home ====================-->
+        <section id="home" class="home">
+            <div class="container">
+                <div class="d-grid home_wrapper">
+                    <div class="home_content">
+                        <h2 class="home_title">Hi, I am Anya</h2>
+                        <p class="home_description">I'm an undergraduate Computer Science student at UCSD who is passionate about Software Engeneering and AI/ML.
+                        </p>
+                    </div>
+                    <img src="assets/img/flowers.jpg" alt="flowers" class="flower_img">
+                </div>
+            </div>
+        </section>
+
+        <!--=================== About ====================-->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">About Me</h2>
+                </div>
+                <div class="d-grid about_wrapper">
+                    <div class="about_content">
+                        <h3 class="about_title">I'm a Computer Science student at UCSD.</h3>
+                        <p class="about_description">I'm always eager to learn and enthusiastic about Software Development, Artificial Intelligence and Machine Learning.
+                            I'm seeking to leverage my technical skills and a drive for innovation in an internship in order to contribute to impactful
+                            projects and further develop expertise in AI/ML and Software Development.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills_title">Skills:</h3>
+                        <div class="skills_wrapper">
+                            <ul class="skills_list">
+                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
+                                    Programming languages: Python, Java, C/C++, HTML/CSS, JavaScript, ARM Assembly</li>
+                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
+                                    Software Development: unerstanding of Agile and DevOps principles</li>
+                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
+                                    Version Control: Git, GitHub, GitHub Actions</li>
+                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
+                                    Advanced Data Structures, Design and Analysis of Algorithms</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Experience ====================-->
+        <section id="experience" class="section experience">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Experience</h2>
+                </div>
+                <div class="experience_wrapper">
+                    <div class="d-grid experience_content">
+                        <!-- Experience 1-->
+                        <div class="experience_item">
+                            <h3 class="experience_title">Tutor for <a class="hyperlink" href="https://cse.ucsd.edu/"><u>CSE Department at UCSD</u></a></h3>
+                            <span class="experience_date">Sep 2023 - Present</span>
+                            <p class="experience_description">I've tutored for 5 course offerings in subjects: ”Systems Programming and Software Tools” (in C), ”Basic Data Structures”
+                                (in Java), ”Accelerated Intro to Programming” (in Java) and ”Mathematics for Algorithms and Systems Analysis”. I was involved in various tasks like 
+                                designing programming assignments and auto-graders for them; leading or helping to lead discussion and lab sections for up to 35 students; hangling 
+                                course and exam logistics. I also offered individual help to students with assignments, debugging code, troubleshooting and explaining concepts
+                                in accessible way.
+                            </p>
+                        </div>
+                        <!-- Experience 2-->
+                        <div class="experience_item">
+                            <h3 class="experience_title">Project mentor for <a class="hyperlink" href="https://spis.ucsd.edu/"><u>SPIS at UCSD</u></a></h3>
+                            <span class="experience_date">Aug 2024 - Present</span>
+                            <p class="experience_description">I mentored incoming freshmen majoring in computer-related fields, helping them get a head start on Computer Science topics.
+                                I provided extra support to students on their final projects related to Web Apps development and Machine Learning projects.
+                            </p>
+                        </div>
+                        <!-- Experience 3-->
+                        <div class="experience_item">
+                            <h3 class="experience_title">Machine Learning Cluster Assistant for <a class="hyperlink" href="https://jacobsschool.ucsd.edu/cosmos"><u>COSMOS at UCSD</u></a></h3>
+                            <span class="experience_date">Jul 2024 - Aug 2024</span>
+                            <p class="experience_description">I lead lab sessions with other cluster assistants for 28 students helping them learn programming from basic Python to
+                                complex Machine Learning topics like neural networks and natural language processing. I also provided help to students on their final Machine Learning projects.
+                            </p>
+                        </div>
+                        <!-- Experience 4-->
+                        <div class="experience_item">
+                            <h3 class="experience_title">AI Event Lead at <a class="hyperlink" href="https://ai.acmucsd.com/"><u>ACM AI</u></a></h3>
+                            <span class="experience_date">May 2024 - Present</span>
+                            <p class="experience_description">I develop curriculum and learning materials for ACM AI technical events. I will be leading educational events about AI for the student body.
+                            </p>
+                        </div>
+                        <!-- Experience 5-->
+                        <div class="experience_item">
+                            <h3 class="experience_title">Software Team member at <a class="hyperlink" href="https://yonderdeep.ucsd.edu/"><u>Yonder Deep</u></a></h3>
+                            <span class="experience_date">Sep 2024 - Present</span>
+                            <p class="experience_description">I have been working on the Python code for controlling autonomous underwater vehicle for oceanographic and climate change research in a team.
+                                In addition, I am helping with developing graphical user interface to monitor the AUV.
+                            </p>
+                        </div>
+                        <!-- Experience 6-->
+                        <div class="experience_item">
+                            <h3 class="experience_title">Volunteer at <a class="hyperlink" href="https://codewithher.org/"><u>Code With Her</u></a>
+                            and <a class="hyperlink" href="https://edgeucsd.wixsite.com/edge"><u>EDGE</u></a></h3>
+                            <span class="experience_date">Apr 2023 - Jun 2024</span>
+                            <p class="experience_description">I've mentored 2 high school students with aspirations to pursue computer-related degree
+                                In additon, I helped with developing coding exercises for students in Python and curriculum for Girl Scouts to learn how
+                                to create a websites with HTML/CSS and JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Projects ====================-->
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Projects</h2>
+                </div>
+                <div class="d-grid project_wrapper">
+                    <!-- Project 1 -->
+                    <div class="project_content">
+                        <h3 class="project_title">Developer Journal</h3>
+                        <p class="project_description">I've worked in a team to develop a journal app that has calendar, 
+                            to-do list and note-taking functionalities using HTML/CSS, JavaScript, Electron JS and GitHub actions
+                            Through the project I've learned about principles of Agile development, CI/CD pipeline and effective teamwork.</p>
+                        <a href="https://github.com/cse110-sp24-group2/cse110-sp24-group2" class="project_link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project_content">
+                        <h3 class="project_title">Playlist Recommender</h3>
+                        <p class="project_description">I've worked in a team to develop a recommender system that picks songs based of user preference 
+                            using Python machine learning libraries. Specifically, used K-Means to create clusters of similar songs and then used KNN to
+                            find the closest cluster to parameters described by user to provide recommendations.</p>
+                        <a href="https://github.com/2s2e/cse151a-project" class="project_link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project_content">
+                        <h3 class="project_title">Computing Education Research</h3>
+                        <p class="project_description">
+                            • I've participated in the project aiming to help students navigate large code bases effectivly: my contributions include
+                            designing an assignment to help asses student learning and analysing GitHub Copilot data from students in order tounderstand
+                            how LLMs are being used for learning. <br>
+                            • I've conducted a survey to compare the effectiveness of open educational and commercially available
+                            resources in college setting in an effort to improve accessibility of high-quality learning materials.
+                            esigning an assignment that help students learn how to navigate large code basis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--=================== Footer ====================-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer_wrapper">
+                <div class="content">
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a href="https://www.linkedin.com/in/anya-chernova-b69a97260/" target="_blank" class="social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://github.com/Ascher176" target="_blank" class="social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            achernova@ucsd.edu <button class="copy-button" onclick="copyText()" style="border: transparent; 
+                            background-color: transparent; cursor: pointer;"><i class="ri-file-copy-line"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=================== JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
