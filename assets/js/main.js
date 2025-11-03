@@ -51,7 +51,7 @@ scroll_animation.reveal(".home_content, .about_content");
 scroll_animation.reveal(".flower_img", { origin: "top" });
 
 scroll_animation.reveal(
-  ".home_info-wrapper, .skills_title, .skills_list, .experience_name, .experience_item, .service_card, .project_content, .testimonial_wrapper, .footer_content",
+  ".home_info-wrapper, .skills_title, .skills_list, .experience_name, .experience_item, .service_card, .project_content, .research_content, .testimonial_wrapper, .footer_content",
   { delay: 250, interval: 100 }
 );
 
