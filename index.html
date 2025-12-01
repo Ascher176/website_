@@ -41,8 +41,11 @@
                             </a>
                         </li>
                         <li class="social-item">
-                            achernova@ucsd.edu <button class="copy-button" onclick="copyText()" style="border: transparent; 
-                            background-color: transparent; cursor: pointer;"><i class="ri-file-copy-line"></i></button>
+                            achernova@ucsd.edu
+                            <button class="copy-button" onclick="copyText()" style="border: transparent; 
+                            background-color: transparent; cursor: pointer;">
+                                <i class="ri-file-copy-line"></i>
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -58,6 +61,9 @@
                             <a href="#experience" class="nav_link">Experience</a>
                         </li>
                         <li class="nav_item">
+                            <a href="#research" class="nav_link">Research</a>
+                        </li>
+                        <li class="nav_item">
                             <a href="#project" class="nav_link">Projects</a>
                         </li>
                     </ul>
@@ -68,6 +74,7 @@
             </nav>
         </div>
     </header>
+
     <!--=================== main ====================-->
     <main class="main">
         <!--=================== Home ====================-->
@@ -76,7 +83,11 @@
                 <div class="d-grid home_wrapper">
                     <div class="home_content">
                         <h2 class="home_title">Hi, I am Anya</h2>
-                        <p class="home_description">I'm a 4th-year undergraduate Computer Science student at UCSD who is passionate about Software Engeneering, Operating Systems and AI/ML.
+                        <p class="home_description">
+                            I am a fourth-year Computer Science student at UC San Diego with academic and 
+                            research interests in operating systems, high-performance and AI/ML systems, 
+                            and computing education. I enjoy designing efficient computational systems and
+                            developing research-informed tools that help learners understand complex computing concepts.
                         </p>
                     </div>
                     <img src="assets/img/flowers.jpg" alt="flowers" class="flower_img">
@@ -93,26 +104,42 @@
                 <div class="d-grid about_wrapper">
                     <div class="about_content">
                         <h3 class="about_title">I'm a Computer Science student at UCSD.</h3>
-                        <p><b>UCSD, BS Computer Science (GPA: 3.98) <br> Sep 2022 - Jun 2026</b></p>
-                        <p class="about_description">I'm always eager to learn and enthusiastic about Software Development, Operating Systems and Artificial Intelligence.
-                            I'm seeking to leverage my technical skills and a drive for innovation in an internship or a full-time role in order to contribute to impactful
-                            projects.
+                        <p><b>UC San Diego, BS Computer Science (GPA: 3.981)<br> Sep 2022 - Jun 2026</b></p>
+                        <p class="about_description">
+                            I am primarily interested in systems and AI-particularly the design of efficient, 
+                            reliable, and scalable computational systems that support modern machine learning 
+                            workloads. I am excited by research at the intersection of operating systems, 
+                            hardware-software co-design, and intelligent computation, and I hope to contribute 
+                            to building systems that push the boundaries of performance and usability. 
+                            Alongside my systems and AI interests, I am also deeply committed to computing 
+                            education. Through several years of teaching and research in this area, I have 
+                            seen the transformative impact of effective learning tools and inclusive mentorship. 
+                            I hope to continue contributing to the computing education community while pursuing 
+                            research that advances the capabilities and accessibility of modern computational systems.
                         </p>
                     </div>
                     <div class="skills">
-                        <h3 class="skills_title">Skills:</h3>
+                        <h3 class="skills_title">Skills</h3>
                         <div class="skills_wrapper">
                             <ul class="skills_list">
-                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
-                                    Programming languages: Python, Java, C, C++, HTML/CSS, JavaScript, ARM Assembly</li>
-                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
-                                    Relevant Coursework: Advanced Data Structures (C++), Object-Oriented Design (Java), Computer Organization and
-                                    Systems Programming (C), Software Engineering (HTML/CSS, JavaScript), AI and Machine Learning (Python), Computer
-                                    Graphics (C++), Algorithms and Systems Analysis, Database System Principles, Statistical Methods, Theory of Computation.</li>
-                                <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>
-                                    Technologies/Frameworks: Git, GitHub Actions, CI/CD, VS Code, Flask, React, JUnit, numpy/pandas, PyTorch,
-                                    TensorFlow, scikit-learn, bash scripting, SSH, Linux/Unix.</li>
-                               </div>
+                                <li class="skills_item">
+                                    <i class="ri-arrow-right-s-fill"></i>
+                                    Programming Languages: Python, Java, C, C++, HTML/CSS, JavaScript, ARM Assembly, PostgreSQL
+                                </li>
+                                <li class="skills_item">
+                                    <i class="ri-arrow-right-s-fill"></i>
+                                    Relevant Coursework: Advanced Data Structures (C++), Object-Oriented Design (Java), 
+                                    Computer Organization and Systems Programming (C), Software Engineering (HTML/CSS, 
+                                    JavaScript), AI and Machine Learning (Python), Computer Graphics (C++), Algorithms 
+                                    and Systems Analysis, Database System Principles, Statistical Methods, 
+                                    Theory of Computation.
+                                </li>
+                                <li class="skills_item">
+                                    <i class="ri-arrow-right-s-fill"></i>
+                                    Technologies &amp; Tools: Git, GitHub Actions, CI/CD, VS Code, Flask, React, JUnit, 
+                                    NumPy/Pandas, PyTorch, TensorFlow, scikit-learn, Bash scripting, SSH, Linux/Unix.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -129,65 +156,180 @@
                     <div class="d-grid experience_content">
                         <!-- Experience 0-->
                         <div class="experience_item">
-                            <h3 class="experience_title">Software Engineering Intern at Qualcomm</u></a></h3>
+                            <h3 class="experience_title">Software Engineering Intern at Qualcomm</h3>
                             <span class="experience_date">Jun 2025 - Sep 2025</span>
-                            <p class="experience_description">I developed an AI-powered tool that analyzes the 
-                                root causes of customer-reported technical issues by leveraging prompt-engineering, 
-                                data preprocessing, and model evaluation techniques - ultimately improving model 
-                                accuracy from 50% to 80%. I also built a JavaScript browser extension that integrates 
-                                this tool directly into engineers' workflows, making root cause analysis faster and more 
-                                accessible. In addition to my core project, I collaborated with a team at QHacks, 
-                                Qualcomm's intern hackathon, where we created an AI-driven curriculum design 
-                                assistant and placed 3rd overall.
+                            <p class="experience_description">
+                                I developed an AI-powered tool that analyzes the root causes of 
+                                customer-reported technical issues by leveraging prompt engineering, 
+                                data preprocessing, and model evaluation techniques-improving model 
+                                accuracy from 50% to 80%. I also built a JavaScript browser extension 
+                                that integrates this tool directly into engineers' workflows, making 
+                                root cause analysis faster and more accessible. In addition, I 
+                                collaborated with a team at QHacks, Qualcomm's intern hackathon, where 
+                                we created an AI-driven curriculum design assistant and placed 3rd overall.
                             </p>
+                            <a href="assets/intern_poster.pdf" class="research_link" target="_blank">
+                            View Poster
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
                         </div>
                         <!-- Experience 1-->
                         <div class="experience_item">
-                            <h3 class="experience_title">Tutor for <a class="hyperlink" href="https://cse.ucsd.edu/"><u>CSE Department at UCSD</u></a></h3>
+                            <h3 class="experience_title">
+                                Tutor for <a class="hyperlink" href="https://cse.ucsd.edu/"><u>CSE Department at UCSD</u></a>
+                            </h3>
                             <span class="experience_date">Sep 2023 - Present</span>
-                            <p class="experience_description">I've tutored for 9 course offerings over 2 years in subjects: ”Systems Programming and Software Tools” (in C), ”Basic Data Structures”
-                                (in Java), ”Accelerated Intro to Programming” (in Java) and ”Mathematics for Algorithms and Systems Analysis”. I was involved in various tasks like 
-                                designing programming assignments and auto-graders for them; leading or helping to lead discussion and lab sections for up to 35 students; hangling 
-                                course and exam logistics. I also offered individual help to students with assignments, debugging code, troubleshooting and explaining concepts
-                                in accessible way (300+ one-on-one sessions).
+                            <p class="experience_description">
+                                I've tutored for 9 course offerings over 2 years in the following subjects: 
+                                “Systems Programming and Software Tools” (C), “Basic Data Structures” (Java), 
+                                “Accelerated Intro to Programming” (Java), and “Mathematics for Algorithms and 
+                                Systems Analysis.” I have designed programming assignments and auto-graders, led or 
+                                helped lead discussion and lab sections for up to 45 students, and handled course 
+                                and exam logistics. I have also offered individual help to students with assignments, 
+                                debugging, troubleshooting, and explaining concepts in an accessible way 
+                                (300+ one-on-one sessions).
                             </p>
                         </div>
                         <!-- Experience 1.3-->
                         <div class="experience_item">
-                            <h3 class="experience_title">AI President <- AI Event Lead at <a class="hyperlink" href="https://ai.acmucsd.com/"><u>ACM AI</u></a></h3>
+                            <h3 class="experience_title">
+                                AI President (formerly AI Events Lead) at 
+                                <a class="hyperlink" href="https://ai.acmucsd.com/"><u>ACM AI</u></a>
+                            </h3>
                             <span class="experience_date">May 2024 - Present</span>
-                            <p class="experience_description">As AI President, I oversee the planning, logistics, and execution of the organization's technical workshops, socials, and competitions. 
-                                In this role, I coordinate across a 25-member board to strengthen communication, collaboration, and engagement with the student community. Previously, as AI Events Lead, 
-                                I organized and hosted hands-on workshops on Computer Vision, Neural Networks, Transformers, and Reasoning Algorithms, drawing 70+ participants and creating accessible, 
-                                engaging spaces for students to explore AI.
+                            <p class="experience_description">
+                                As AI President, I oversee the planning, logistics, and execution of the organization's 
+                                technical workshops, socials, and competitions. I coordinate across a 25-member board to 
+                                strengthen communication, collaboration, and engagement with the student community. 
+                                Previously, as AI Events Lead, I organized and hosted hands-on workshops on computer 
+                                vision, neural networks, transformers, and reasoning algorithms, drawing 70+ participants 
+                                and creating accessible, engaging spaces for students to explore AI.
                             </p>
                         </div>
                         <!-- Experience 1.5-->
                         <div class="experience_item">
-                            <h3 class="experience_title">Lead Peer Mentor for <a class="hyperlink" href="https://csepace.ucsd.edu/"><u>CSE-PACE at UCSD</u></a></h3>
+                            <h3 class="experience_title">
+                                Lead Peer Mentor for 
+                                <a class="hyperlink" href="https://csepace.ucsd.edu/"><u>CSE-PACE at UCSD</u></a>
+                            </h3>
                             <span class="experience_date">Sep 2024 - Present</span>
-                            <p class="experience_description">I've served as a Lead Peer Mentor for the CSE-PACE program at UC San Diego, supporting first-year and transfer 
-                                students interested in computing as they transition into university life. I mentor students and facilitate cohort discussions on 
-                                topics such as AI, cybersecurity, academic planning, and career preparation. In this role, I focus on building an inclusive, supportive environment
-                                where students can connect with peers, ask questions, and gain confidence both academically and socially.
+                            <p class="experience_description">
+                                I serve as a Lead Peer Mentor for the CSE-PACE program at UC San Diego, supporting 
+                                first-year and transfer students interested in computing as they transition into 
+                                university life. I mentor students and facilitate cohort discussions on topics such as 
+                                AI, cybersecurity, academic planning, and career preparation. In this role, I focus on 
+                                building an inclusive, supportive environment where students can connect with peers, ask 
+                                questions, and gain confidence both academically and socially.
                             </p>
                         </div>
                         <!-- Experience 2-->
                         <div class="experience_item">
-                            <h3 class="experience_title">Project mentor for <a class="hyperlink" href="https://spis.ucsd.edu/"><u>SPIS at UCSD</u></a></h3>
+                            <h3 class="experience_title">
+                                Project Mentor for 
+                                <a class="hyperlink" href="https://spis.ucsd.edu/"><u>SPIS at UCSD</u></a>
+                            </h3>
                             <span class="experience_date">Aug 2024 - Sep 2024</span>
-                            <p class="experience_description">I mentored incoming freshmen majoring in computing fields, helping them get a head start on Computer Science topics.
-                                I provided extra support to students on their final projects related to Web Apps development and Machine Learning projects.
+                            <p class="experience_description">
+                                I mentored incoming freshmen majoring in computing fields, helping them get a head 
+                                start on computer science topics. I provided extra support to students on their final 
+                                projects related to web application development and machine learning.
                             </p>
                         </div>
                         <!-- Experience 3-->
                         <div class="experience_item">
-                            <h3 class="experience_title">Machine Learning Cluster Assistant for <a class="hyperlink" href="https://jacobsschool.ucsd.edu/cosmos"><u>COSMOS at UCSD</u></a></h3>
+                            <h3 class="experience_title">
+                                Machine Learning Cluster Assistant for 
+                                <a class="hyperlink" href="https://jacobsschool.ucsd.edu/cosmos"><u>COSMOS at UCSD</u></a>
+                            </h3>
                             <span class="experience_date">Jul 2024 - Aug 2024</span>
-                            <p class="experience_description">I lead lab sessions with other cluster assistants for 28 students helping them learn programming from basic Python to
-                                complex Machine Learning topics like neural networks and natural language processing. I also provided help to students on their final Machine Learning projects.
+                            <p class="experience_description">
+                                I led lab sessions with other cluster assistants for 28 students, helping them learn 
+                                programming from basic Python through more advanced machine learning topics such as 
+                                neural networks and natural language processing. I also provided support on their final 
+                                machine learning projects.
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Research ====================-->
+        <section id="research" class="section research">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Computing Education Research</h2>
+                </div>
+                <div class="d-grid research_wrapper">
+                    <!-- Paper 0 -->
+                    <div class="research_content">
+                        <h3 class="research_title">
+                            Students' Evaluation of a Free and a Paid Interactive eTextbook for Computing Education
+                        </h3>
+                        <p class="research_description">
+                            <b>Anya Chernova</b>, Audria Montalvo, Vinod Vairavaraj, Liam Hardy, and Adalbert Gerald 
+                            Soosai Raj. (2026, in press). <br>
+                            <i>Students' Evaluation of a Free and a Paid Interactive eTextbook for Computing Education.</i> 
+                            In Proceedings of SIGCSE TS 2026. <br>
+                            - Led a study evaluating free and paid computing textbooks, showing that accessible open-source 
+                            materials can match or exceed paid alternatives in perceived educational value.
+                        </p>
+                        <a href="https://geraldsoosairaj.github.io/papers/FreevsPaidTextbooks.pdf" class="research_link" target="_blank">
+                            View Paper
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <!-- Paper 1 -->
+                    <div class="research_content">
+                        <h3 class="research_title">
+                            Needles in a Haystack: Student Struggles with Working on Large Code Bases
+                        </h3>
+                        <p class="research_description">
+                            <b>Best Paper Award</b>: Anshul Shah, Thomas Rexin, <b>Anya Chernova</b>, Gonzalo Allen-Perez, 
+                            William G. Griswold, and Adalbert Gerald Soosai Raj. <br>
+                            <i>Needles in a Haystack: Student Struggles with Working on Large Code Bases.</i> 
+                            In Proceedings of the 2025 ACM Conference on International Computing Education Research V.1, 
+                            ICER '25, pages 27-40, New York, NY, USA, 2025. Association for Computing Machinery. <br>
+                            - Analyzed student problem-solving behaviors when working with a large code base, identifying 
+                            key comprehension challenges and proposing instructional strategies to improve large-code-base learning.
+                        </p>
+                        <a href="https://dl.acm.org/doi/10.1145/3702652.3744218" class="research_link" target="_blank">
+                            View Paper
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <!-- Paper 2 -->
+                    <div class="research_content">
+                        <h3 class="research_title">
+                            Students' Use of GitHub Copilot for Working with Large Code Bases
+                        </h3>
+                        <p class="research_description">
+                            Anshul Shah, <b>Anya Chernova</b>, Elena Tomson, Leo Porter, William G. Griswold, and 
+                            Adalbert Gerald Soosai Raj. <br>
+                            <i>Students' Use of GitHub Copilot for Working with Large Code Bases.</i> 
+                            In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1, 
+                            SIGCSE 2025, New York, NY, USA, 2025. Association for Computing Machinery. <br>
+                            - Investigated how students use and trust AI coding tools, uncovering “one-shot prompting” 
+                            behavior and offering insights for integrating AI literacy into programming education.
+                        </p>
+                        <a href="https://dl.acm.org/doi/10.1145/3641554.3701800" class="research_link" target="_blank">
+                            View Paper
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <!-- Paper 3 -->
+                    <div class="research_content">
+                        <h3 class="research_title">
+                            Navigating Creative Coding: Novice User Experiences with GenAI in Open-Ended Programming Tasks
+                        </h3>
+                        <p class="research_description">
+                            Annapurna Vadaparty, Anshul Shah, Jack R. Kissinger, <b>Anya Chernova</b>, Jenish Thanki, 
+                            Keshav Tiwari, David H. Smith IV, Daniel Zingaro, and Leo Porter. <br>
+                            <i>Navigating Creative Coding: Novice User Experiences with GenAI in Open-Ended Programming Tasks.</i> 
+                            Submitted to ACM CHI 2026 (under review). <br>
+                            - Examined how beginners collaborate with generative AI while creating Python games, revealing 
+                            design implications for AI tools that foster reflection and self-efficacy.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -203,98 +345,62 @@
                     <!-- Project 1 -->
                     <div class="project_content">
                         <h3 class="project_title">Developer Journal</h3>
-                        <p class="project_description">I've worked in a team to develop a journal app that has calendar, 
-                            to-do list and note-taking functionalities using HTML/CSS, JavaScript, Electron JS and GitHub actions
-                            Through the project I've learned about principles of Agile development, CI/CD pipeline and effective teamwork.</p>
-                        <a href="https://github.com/cse110-sp24-group2/cse110-sp24-group2" class="project_link">View Project
-                            <i class="ri-arrow-right-line"></i></a>
+                        <p class="project_description">
+                            I worked in a team to develop a journal app with calendar, to-do list, and note-taking
+                            functionalities using HTML/CSS, JavaScript, Electron, and GitHub Actions. Through the project, 
+                            I learned about Agile development practices, CI/CD pipelines, and effective teamwork on 
+                            a multi-feature application.
+                        </p>
+                        <a href="https://github.com/cse110-sp24-group2/cse110-sp24-group2" class="project_link" target="_blank">
+                            View Project
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
                     </div>
                     <!-- Project 2 -->
                     <div class="project_content">
                         <h3 class="project_title">Playlist Recommender</h3>
-                        <p class="project_description">I've worked in a team to develop a recommender system that picks songs based of user preference 
-                            using Python machine learning libraries. Specifically, used K-Means to create clusters of similar songs and then used KNN to
-                            find the closest cluster to parameters described by user to provide recommendations.</p>
-                        <a href="https://github.com/2s2e/cse151a-project" class="project_link">View Project
-                            <i class="ri-arrow-right-line"></i></a>
+                        <p class="project_description">
+                            I worked in a team to develop a recommender system that selects songs based on user preferences 
+                            using Python machine learning libraries. We used K-Means to create clusters of similar songs and 
+                            KNN to find the closest cluster to user-specified parameters, providing personalized recommendations.
+                        </p>
+                        <a href="https://github.com/2s2e/cse151a-project" class="project_link" target="_blank">
+                            View Project
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
                     </div>
                     <!-- Project 3 -->
                     <div class="project_content">
                         <h3 class="project_title">User-Driven Story Generator</h3>
                         <p class="project_description">
-                            I worked in a team on a User-Driven Story Generator, designing an NLP pipeline with Retrieval-Augmented Generation to enhance consistency, 
-                            long-term memory, and factual accuracy in interactive, user-guided storytelling. This project focused on creating more coherent 
-                            multi-turn narratives by grounding AI-generated content in relevant retrieved context.</p>
+                            I worked in a team on a User-Driven Story Generator, designing an NLP pipeline with 
+                            Retrieval-Augmented Generation to enhance consistency, long-term memory, and factual accuracy 
+                            in interactive, user-guided storytelling. This project focused on creating more coherent 
+                            multi-turn narratives by grounding AI-generated content in relevant retrieved context.
+                        </p>
+                        <a href="assets/story_gen.pdf" class="project_link" target="_blank">
+                            View Project
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
                     </div>
                     <!-- Project 4 -->
                     <div class="project_content">
                         <h3 class="project_title">Improving Recipe Recommendations</h3>
                         <p class="project_description">
-                            I developed a system in a team that predicts user ratings using neural networks and latent factor models. Our approach enabled more 
-                            personalized and accurate recipe suggestions by capturing user preferences and underlying patterns in the dataset.</p>
+                            I helped develop a system that predicts user ratings using neural networks and latent factor models. 
+                            Our approach enabled more personalized and accurate recipe suggestions by capturing user preferences 
+                            and underlying patterns in the dataset.
+                        </p>
+                        <a href="assets/recipe.pdf" class="project_link" target="_blank">
+                            View Project
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-    <!--=================== Research ====================-->
-        <section id="research" class="section research">
-            <div class="container">
-                <div class="section_header">
-                    <h2 class="section_title">Computing Education Research</h2>
-                </div>
-                <div class="d-grid research_wrapper">
-                    <!-- Paper 0 -->
-                    <div class="research_content">
-                        <h3 class="research_title">Students' Evaluation of a Free and a Paid Interactive eTextbooks for Computing Education</h3>
-                        <p class="research_description"><b>Anya Chernova</b>, Audria Montalvo, Vinod Vairavaraj, Liam Hardy, and Adalbert Gerald Soosai Raj. (2026, in press).
-                            Students' Evaluation of a Free and a Paid Interactive eTextbooks for Computing Education. In Proceedings of SIGCSE
-                            TS 2026. <br>
-                            - Led a study evaluating free and paid computing textbooks, showing that accessible open-source materials can
-                            match or exceed paid alternatives in perceived educational value.</p>
-                        <!-- <a href="https://dl.acm.org/doi/10.1145/3702652.3744218" class="research_link">View Paper
-                            <i class="ri-arrow-right-line"></i></a> -->
-                    </div>
-                    <!-- Paper 1 -->
-                    <div class="research_content">
-                        <h3 class="research_title">Needles in a Haystack: Student Struggles with Working on Large Code Bases</h3>
-                        <p class="research_description">Best Paper Award: Anshul Shah, Thomas Rexin, <b>Anya Chernova</b>, Gonzalo Allen-Perez, William G. Griswold, and
-                            Adalbert Gerald Soosai Raj. Needles in a Haystack: Student Struggles with Working on Large Code Bases. In
-                            Proceedings of the 2025 ACM Conference on International Computing Education Research V.1, ICER '25, page 27-40,
-                            New York, NY, USA, 2025. Association for Computing Machinery. <br> 
-                            - Analyzed student problem-solving behaviors
-                            working with a large code base, identifying key comprehension challenges and proposing instructional strategies to
-                            improve large-code-base learning.</p>
-                        <a href="https://dl.acm.org/doi/10.1145/3702652.3744218" class="research_link">View Paper
-                            <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                    <!-- Paper 2 -->
-                    <div class="research_content">
-                        <h3 class="research_title">Students' Use of GitHub Copilot for Working with Large Code Bases</h3>
-                        <p class="research_description">Anshul Shah, <b>Anya Chernova</b>, Elena Tomson, Leo Porter, William G. Griswold, and Adalbert Gerald Soosai Raj.
-                            Students' Use of GitHub Copilot for Working with Large Code Bases. In Proceedings of the 56th ACM Technical
-                            Symposium on Computer Science Education V. 1, SIGCSE 2025, New York, NY, USA, 2025. Association for Computing
-                            Machinery. <br>
-                            - Investigated how students use and trust AI coding tools, uncovering “one-shot prompting” behavior and
-                            insights for integrating AI literacy into programming education.</p>
-                        <a href="https://dl.acm.org/doi/10.1145/3641554.3701800" class="research_link">View Paper
-                            <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                    <!-- Paper 3 -->
-                    <div class="research_content">
-                        <h3 class="research_title">Navigating Creative Coding: Novice User Experiences with GenAI in
-                            Open-Ended Programming Tasks</h3>
-                        <p class="research_description">Annapurna Vadaparty, Anshul Shah, Jack R Kissinger, <b>Anya Chernova</b>, Jenish Thanki, Keshav Tiwari, David H.
-                            Smith IV, Daniel Zingaro, and Leo Porter. Navigating Creative Coding: Novice User Experiences with GenAI in
-                            Open-Ended Programming Tasks. Submitted to ACM CHI 2026. (Under review) 
-                            <br> - Examined how beginners collaborate
-                            with generative AI while creating Python games, revealing design implications for AI tools that foster reflection and
-                            self-efficacy.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    </main>
 
     <!--=================== Footer ====================-->
     <footer id="footer" class="footer">
@@ -313,8 +419,11 @@
                             </a>
                         </li>
                         <li class="social-item">
-                            achernova@ucsd.edu <button class="copy-button" onclick="copyText()" style="border: transparent; 
-                            background-color: transparent; cursor: pointer;"><i class="ri-file-copy-line"></i></button>
+                            achernova@ucsd.edu
+                            <button class="copy-button" onclick="copyText()" style="border: transparent; 
+                            background-color: transparent; cursor: pointer;">
+                                <i class="ri-file-copy-line"></i>
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -330,4 +439,3 @@
 </body>
 
 </html>
-
